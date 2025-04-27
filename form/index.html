@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify Login</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/09/Spotify_Logo_CMYK_Black.png" alt="Spotify Logo" class="logo"/>
+    <h2>Log in to Spotify</h2>
+
+    <div class="social-buttons">
+      <button class="google">Continue with Google</button>
+      <button class="facebook">Continue with Facebook</button>
+      <button class="apple">Continue with Apple</button>
+      <button class="phone">Continue with phone number</button>
+    </div>
+
+    <div class="divider"></div>
+
+    <form>
+      <label for="email">Email or username</label>
+      <input type="text" id="email" placeholder="Email or username"/>
+
+      <label for="password">Password</label>
+      <div class="password-container">
+        <input type="password" id="password" placeholder="Password"/>
+        <span id="togglePassword">👁️</span>
+      </div>
+
+      <button type="submit" class="login-btn">Log In</button>
+    </form>
+
+    <a href="#" class="forgot-password">Forgot your password?</a>
+
+    <div class="signup-text">
+      Don't have an account? <a href="#">Sign up for Spotify</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
